@@ -14,6 +14,7 @@
 		F35BA59F1B72773500B8FEB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35BA59E1B72773500B8FEB8 /* Images.xcassets */; };
 		F35BA5A21B72773500B8FEB8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F35BA5A01B72773500B8FEB8 /* LaunchScreen.xib */; };
 		F35BA5AE1B72773500B8FEB8 /* VerticalFiniteSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F35BA5AD1B72773500B8FEB8 /* VerticalFiniteSliderTests.m */; };
+		F35BA5BC1B727C8200B8FEB8 /* VerticalFiniteSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = F35BA5BB1B727C8200B8FEB8 /* VerticalFiniteSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F35BA5A71B72773500B8FEB8 /* VerticalFiniteSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerticalFiniteSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35BA5AC1B72773500B8FEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F35BA5AD1B72773500B8FEB8 /* VerticalFiniteSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerticalFiniteSliderTests.m; sourceTree = "<group>"; };
+		F35BA5BA1B727C8200B8FEB8 /* VerticalFiniteSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalFiniteSlider.h; sourceTree = "<group>"; };
+		F35BA5BB1B727C8200B8FEB8 /* VerticalFiniteSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalFiniteSlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				F35BA5961B72773500B8FEB8 /* AppDelegate.m */,
 				F35BA5981B72773500B8FEB8 /* ViewController.h */,
 				F35BA5991B72773500B8FEB8 /* ViewController.m */,
+				F35BA5BA1B727C8200B8FEB8 /* VerticalFiniteSlider.h */,
+				F35BA5BB1B727C8200B8FEB8 /* VerticalFiniteSlider.m */,
 				F35BA59B1B72773500B8FEB8 /* Main.storyboard */,
 				F35BA59E1B72773500B8FEB8 /* Images.xcassets */,
 				F35BA5A01B72773500B8FEB8 /* LaunchScreen.xib */,
@@ -168,6 +173,7 @@
 				TargetAttributes = {
 					F35BA58D1B72773500B8FEB8 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 57632H7M44;
 					};
 					F35BA5A61B72773500B8FEB8 = {
 						CreatedOnToolsVersion = 6.4;
@@ -220,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F35BA59A1B72773500B8FEB8 /* ViewController.m in Sources */,
+				F35BA5BC1B727C8200B8FEB8 /* VerticalFiniteSlider.m in Sources */,
 				F35BA5971B72773500B8FEB8 /* AppDelegate.m in Sources */,
 				F35BA5941B72773500B8FEB8 /* main.m in Sources */,
 			);
@@ -347,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = VerticalFiniteSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +365,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = VerticalFiniteSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
